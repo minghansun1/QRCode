@@ -1,8 +1,9 @@
-# QRCode
-A tool that can find cut up pieces of a QR code in an image and piece them together to form a readable code. Uses OpenCV, image-straightening algorithms, and Pyzbar to find the correct orientation and position of each component of a qr code.
+# QR Code Merger
 
-There are 4 main components to this project: 
-1) Find each piece of the QR code (work in progress)
-2) Rotate each piece so that all lines are horizontal or vertical (bound method and rotate method)
-3) Create every possible arrangement of QR code pieces and attempt to read the arrangement (try_all method)
+## Project Description:
+A python program that uses computer vision to detect cut-up, noisy pieces of a QR code, align them, and merge them together
 
+## Before:
+![Before Screenshot](Before.png)
+## After:
+![After Screenshot](After.png)

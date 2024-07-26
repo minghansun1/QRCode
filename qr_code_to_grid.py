@@ -22,10 +22,10 @@ def combine_four():
     img4 = Image.open("bound_rotated_4-cropped.png")
     img_list = [img1, img2, img3, img4]
     p = permutations(img_list)
-    for perm in p:
+    #for perm in p:
         # print(perm)
-        try_all(perm)
-    # try_one(img3, img4, img2, img1)
+        # try_all(perm)
+    try_one(img3, img4, img2, img1)
 
 
 def rotate(image_name):
