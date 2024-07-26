@@ -1,10 +1,9 @@
 # QR Code Merger
 
 ## Project Description:
-A python program that uses computer vision to detect cut-up, noisy pieces of a QR code, align them, and merge them together.
-Used techniques like noise reduction and image straightening.
+A python program that uses computer vision to detect cut-up, noisy pieces of a QR code, align them, and merge them together
 
 ## Before:
-![Before Screenshot](Before.png)
+<img src="Before.png" alt="drawing" width="700"/><br>
 ## After:
-![After Screenshot](After.png)
+<img src="After.png" alt="drawing" width="350"/>
